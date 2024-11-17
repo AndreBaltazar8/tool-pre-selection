@@ -1,0 +1,1604 @@
+{
+  "testQueries": [
+    {
+      "query": "I need to send some large image files via email, but they're taking up too much space. How can I compress them before sending?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I need to calculate the determinant of a 4x4 matrix for my linear algebra assignment. Can you help me with that?",
+      "expectedTool": "CalculateDeterminantEfficiently"
+    },
+    {
+      "query": "I need to validate a JSON file against a specific schema before uploading it. Can you help me with that?",
+      "expectedTool": "ValidateJsonSchema"
+    },
+    {
+      "query": "I need to plan a picnic this weekend in New York City. Can you tell me the probability of rain there?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to schedule weekly team meetings at 10 AM every Monday. Can you automate this for me?",
+      "expectedTool": "ScheduleMeetingsAutomatically"
+    },
+    {
+      "query": "I need a list of all email addresses from last month's conference presentations for follow-up emails.",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a financial report with fractions that need to be converted into decimals for presentation. Can you help me with this conversion?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to schedule weekly team meetings at 10 AM on Fridays. Can you help automate this?",
+      "expectedTool": "ScheduleMeetingsAutomatically"
+    },
+    {
+      "query": "What is the wind chill index for a temperature of -5 degrees Celsius with a wind speed of 20 km/h?",
+      "expectedTool": "ComputeWindChillRisk"
+    },
+    {
+      "query": "I have a folder with sales data in CSV format that needs to be converted into JSON for use in our web application. Can you help me with that?",
+      "expectedTool": "ConvertCsvToJsonForWebApps"
+    },
+    {
+      "query": "I need to schedule a weekly meeting with my team every Friday at 3 PM starting next week. How can I automate this?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need a script to migrate all our data from SQL Server to MySQL while keeping the relationships between tables intact.",
+      "expectedTool": "MigrateSqlToMySqlTablesDataIntegrity"
+    },
+    {
+      "query": "I need to convert all the CSV files in my project directory to JSON format while ensuring that the data adheres to a predefined schema.",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I have a list of email addresses collected from an event, how can I validate them to ensure they are correct before sending out follow-up emails?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I have a set of system logs in CSV format that I need to convert to JSON for better analysis. Can you help me with that?",
+      "expectedTool": "ConvertCsvToJsonLogs"
+    },
+    {
+      "query": "I need all instances of the keyword 'performance optimization' from our project database to analyze recent improvements.",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I have a lot of emails coming in from different clients, can you help me organize them by sender into specific folders?",
+      "expectedTool": "SortEmailsBySender"
+    },
+    {
+      "query": "I need to make sure all my emails from a specific client are easy to find. Can you help organize them?",
+      "expectedTool": "SortEmailsBySender"
+    },
+    {
+      "query": "I need to make sure my daily backup is set up correctly. Can you configure it to run automatically at 10 PM?",
+      "expectedTool": "ScheduleDailyBackupAtTenPM"
+    },
+    {
+      "query": "I need all my event reminders from Google Calendar to be synced to my smartwatch so I don't miss any appointments while on the go.",
+      "expectedTool": "SyncEventRemindersToDevice"
+    },
+    {
+      "query": "I need to validate a list of email addresses for our new marketing campaign. How can I ensure they are all active and deliverable?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "Can you check if this JSON configuration file adheres to our security schema before deploying the API?",
+      "expectedTool": "ValidateApiSecurityStandards"
+    },
+    {
+      "query": "I need to extract the sales data for Q4 2022 from our company's financial dataset.",
+      "expectedTool": "ExtractDataPointsFromDatasets"
+    },
+    {
+      "query": "I need to know the probability of rain in New York City next week for my outdoor event planning.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need a detailed rainfall forecast for Tokyo over the next 48 hours to plan an outdoor event.",
+      "expectedTool": "PredictRainfallForecast"
+    },
+    {
+      "query": "I need to convert some fractions into decimals for our financial report. Can you help me with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "What is the probability of rain in New York City on Saturday?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "Can you help me schedule a weekly team meeting at 10 AM every Monday?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "What is the probability of rain in Tokyo next Saturday so I can plan my outdoor wedding ceremony?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a quadratic equation ax^2 + bx + c = 0 where a=1, b=-3, and c=2. Can you find the exact roots for me?",
+      "expectedTool": "CalculateQuadraticRootsExactly"
+    },
+    {
+      "query": "I need a list of email addresses from our recent conference proceedings to follow up with attendees.",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to convert all the JPEG images in my project directory to PNG format without losing quality. Can you help with that?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I need to schedule a weekly team meeting but I keep ending up in back-to-back meetings. Can you help me find a time that works for everyone?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I need to make sure all my devices are synchronized with the correct time. How can I set this up?",
+      "expectedTool": "SetSystemTimeSync"
+    },
+    {
+      "query": "My system's performance has been declining lately. Can you help me optimize its resource configurations?",
+      "expectedTool": "OptimizeResourceConfigurations"
+    },
+    {
+      "query": "I need to convert a batch of CSV files into JSON format for my project. Can you help me with that?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I have several meetings scheduled this week, but I'm not sure if there are any conflicts. Can you help me check my calendar?",
+      "expectedTool": "ResolveCalendarConflicts"
+    },
+    {
+      "query": "I have a report with fractions that need to be converted to decimals for our financial analysis. Can you help me with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a financial report with many fractions that need to be converted to decimals for consistency. Can you help me convert them accurately?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to translate our latest software documentation from English to Japanese for a new market launch. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I need to ensure that all CSV files in the project directory are converted to JSON format while adhering to a predefined schema. How can I do this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to clean up my contact list by removing duplicate email addresses before sending out a marketing campaign. Can you help with that?",
+      "expectedTool": "CleanEmailContacts"
+    },
+    {
+      "query": "I need to plan a hiking trip in Yosemite next month. Could you help me find the probability of rain during that time?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a PDF report that needs to be converted into an editable DOCX format for some revisions. Can you help with that?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I have a folder full of CSV files that need to be converted into JSON format for our project. How can I ensure that the conversion process maintains data integrity and follows our schema?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to know if there's a chance of rain in Tokyo over the next two days for an outdoor event I'm planning.",
+      "expectedTool": "PredictRainfallForecast"
+    },
+    {
+      "query": "I have a scanned PDF of financial statements that I need to convert into editable text for analysis. Can you help with that?",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "What is the probability of rain in New York City next week?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have scanned images of my research papers and I need to extract the text from them for analysis.",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "I need a Japanese translation of our latest technical manual for a product launch in Japan next month. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I need to know the probability of rain in New York City next week to plan my outdoor event.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to know if it's going to rain in New York tomorrow afternoon. Can you help forecast the probability of precipitation?",
+      "expectedTool": "PredictRainfallForecast"
+    },
+    {
+      "query": "I have a folder full of JPEG images that I need to convert to PNG format without losing quality. How can I do this?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "What is the probability of rain in New York City on Saturday?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert a detailed technical manual from PDF format into DOCX for better editing. Can you help me with that?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to convert the fractional ratios in our financial report to decimals for a presentation, can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a folder full of CSV financial reports that I need converted to JSON. How can I ensure the data integrity during this process?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I have some old Japanese documents that are encoded in Shift-JIS. How can I convert them to UTF-8 so they're compatible with my current system?",
+      "expectedTool": "ConvertShiftJisToUtf"
+    },
+    {
+      "query": "I have a report in PDF format that I need to edit in Microsoft Word. Can you help convert it to DOCX while maintaining the formatting?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I have a folder with lots of JPEG images that I need to convert to PNG format without losing quality. How can I do this efficiently?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I have a large number of user profiles in JSON format fetched from an API. I need to extract all the relevant user data for analysis. Can you help with that?",
+      "expectedTool": "ExtractJsonUserDataFromApi"
+    },
+    {
+      "query": "I need to send a large set of project files in an email, but I want to make sure they don't take up too much space or slow down the delivery. Can you help me compress these attachments?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I have a technical manual that needs to be translated into Japanese for our upcoming product launch. Can you help with this?",
+      "expectedTool": "TranslateTechnicalManualsToJapanese"
+    },
+    {
+      "query": "I need to convert a detailed product catalog from PDF format to DOCX so that our sales team can easily edit it in Microsoft Word. Can you help with this?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I'm planning a camping trip this weekend. Can you tell me if there's a chance of rain in the area over the next 48 hours?",
+      "expectedTool": "PredictRainfallForecast"
+    },
+    {
+      "query": "I need to convert some fractions in my financial report to decimals for better readability. Can you help me with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a folder of CSV files that I need to convert into JSON format for my web app. Can you help me with that?",
+      "expectedTool": "ConvertCsvToJsonForWebApps"
+    },
+    {
+      "query": "I need to schedule a bi-weekly meeting with the marketing team starting next month at 10 AM on Wednesdays. Can you automate this for me?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need to convert all the JPEG images in my project folder to PNG format while keeping the original metadata intact.",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "I need to convert all the fractional values in my financial report into decimals for better clarity.",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a list of financial data that uses fractions, and I need to convert them to decimals before submitting the report. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to send a large PDF file as an email attachment, but it's too big. Can you help me compress it?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I have some old scanned documents that I need to search through for important information. How can I convert them into editable digital text?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology"
+    },
+    {
+      "query": "I need to ensure that all the data in my company's database is consistent and there are no orphaned records. Can you help me with that?",
+      "expectedTool": "EnsureDataIntegrity"
+    },
+    {
+      "query": "Our database queries are running very slowly, especially during peak times. Can you help us identify the slow ones and suggest some optimizations?",
+      "expectedTool": "OptimizeQueryPerformance"
+    },
+    {
+      "query": "I'm preparing a financial report for my boss, but some values are in fractions. Could you help me convert them to decimals?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a report in PDF format that I need to edit in Word. How can I convert it while keeping the formatting intact?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to schedule weekly team check-ins every Monday at 10 AM, how can I automate this?",
+      "expectedTool": "ScheduleMeetingsAutomatically"
+    },
+    {
+      "query": "We need to analyze all customer support tickets from the past quarter related to issues with software version 3.2. Can you help us retrieve those?",
+      "expectedTool": "RetrieveVersionThreePointTwoTickets"
+    },
+    {
+      "query": "I have a list of potential clients in this document. Can you help me extract all their email addresses for follow-up?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to make sure my API endpoints are secure before deploying them. Can you help me validate them against some security standards?",
+      "expectedTool": "ValidateApiSecurityStandards"
+    },
+    {
+      "query": "I need to reduce a set of fractions in my math homework to their simplest form. Can you help with that?",
+      "expectedTool": "SimplifyFractionsNow"
+    },
+    {
+      "query": "I need to ensure all the email addresses in our new customer list are valid before sending out newsletters. Can you help me with that?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I have a folder full of high-resolution JPEG images that I need to convert to PNG format without losing any quality. Can you help me with that?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I have a folder full of photos taken on my vacation, but they're all in JPEG format. Can you help me convert them to PNG so I can share them more easily online?",
+      "expectedTool": "ConvertJpegsToPngs"
+    },
+    {
+      "query": "I need to convert all the CSV files in my reports folder to JSON format while ensuring that the data matches our predefined schema. Can you help me with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to schedule a team meeting for next month, can you set up reminders for me?",
+      "expectedTool": "ScheduleAndRemindAppointments"
+    },
+    {
+      "query": "I have a dataset with some messy text entries, and I need to extract all phone numbers from it. How can I do that efficiently?",
+      "expectedTool": "OptimizeQueriesWithRegexMatching"
+    },
+    {
+      "query": "I have a large set of customer data in text files that needs to be organized into a relational database for easier analysis. How can I automate this process?",
+      "expectedTool": "ExtractNormalizeData"
+    },
+    {
+      "query": "My app's user authentication system is not syncing properly with the external identity provider. How can I fix this issue?",
+      "expectedTool": "SynchronizeUserAuthData"
+    },
+    {
+      "query": "I have a PDF document with scanned images of some data that I need to analyze. Can you help me convert this into an editable format?",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "I have a folder with several CSV files that I need to convert to JSON format for a project. Can you help me with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I have a large dataset in CSV format that I need to import into my SQL database. Before doing so, I want to make sure the data is clean and consistent. Can you help me with this?",
+      "expectedTool": "ExtractNormalizeData"
+    },
+    {
+      "query": "I need to validate the JSON schema of a configuration file before deploying it on our server.",
+      "expectedTool": "ValidateJsonSchema"
+    },
+    {
+      "query": "I need to convert all my JPEG images from our recent photo shoot into PNG format while keeping the same quality.",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I need to ensure that all my financial reports use decimals instead of fractions. Can you help me convert these numbers?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need all user data from our customer API endpoint for a detailed analysis, how can I extract it?",
+      "expectedTool": "ExtractJsonUserDataFromApi"
+    },
+    {
+      "query": "I need to optimize the BIOS settings on my new gaming PC for better performance and security. Could you guide me through it?",
+      "expectedTool": "OptimizeBiosSettings"
+    },
+    {
+      "query": "I have a large number of scanned documents that need to be searchable. Can you help convert them into editable digital text?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology"
+    },
+    {
+      "query": "I have a document with technical specifications that needs to be translated into Japanese. Can you help me with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I need to translate our technical manual from English to Japanese while maintaining the correct terminology and structure. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I have a folder full of CSV files that need to be converted into JSON format. Can you ensure the conversion is done according to our predefined schema?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need a report on all instances of 'performance optimization' in our project documentation over the past year.",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I have a scanned document of the company's technical manual, but it's in image format. How can I convert it into an editable text file so that we can translate it into Japanese?",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "I have a spreadsheet with financial data that uses fractions instead of decimals. Can you help convert these to decimals for better precision in our reports?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to convert a technical manual from PDF format into DOCX so that my team can easily edit it in Microsoft Word. Can you help with this?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to extract the sales figures for Q4 from our company's financial database. Can you help me with that?",
+      "expectedTool": "FetchSpecificDataPoints"
+    },
+    {
+      "query": "How can I ensure all my upcoming events and reminders are synced to my smartwatch?",
+      "expectedTool": "SyncEventRemindersToDevice"
+    },
+    {
+      "query": "I have some financial data in a spreadsheet with fractions that need to be converted to decimals for a report. Can you help with this?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to convert all the photos I took last summer from JPEG format to PNG format while keeping the same quality and dimensions. How can I do this?",
+      "expectedTool": "ConvertJpegsToPngs"
+    },
+    {
+      "query": "I have some important JPEG images that need to be converted to high-resolution TIFFs for an upcoming print project. Can you help me do that?",
+      "expectedTool": "ConvertJpegToTiffHighRes"
+    },
+    {
+      "query": "I need to send some large design files in my email and want to make sure they're compressed so the recipients can open them quickly. Can you help with that?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I need to create a report on our team's meeting schedule for next month. Can you export these events into an Excel spreadsheet?",
+      "expectedTool": "ExportCalendarToExcel"
+    },
+    {
+      "query": "I need to find all instances where 'quantum computing' is mentioned in our research database for a report I'm writing.",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I need to convert some fractions in my financial report into decimals with high precision. Can you help me with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a financial report with fractions that need to be converted into decimals for accurate reporting. Can you help me with this?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a financial report with some figures in fractions that I need converted to decimals for presentation. Can you help me with this?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a list of email addresses from our latest marketing campaign. How can I ensure that all these email addresses are valid before sending out the newsletters?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I need to convert a fraction of 3/8 into a decimal for my financial report. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to validate a list of email addresses from our new customer sign-ups before sending out a promotional email. Can you help me with that?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I need a list of email addresses from this report for reaching out to potential clients.",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a report in PDF format that contains financial data for the last quarter. How can I extract this data into an Excel spreadsheet?",
+      "expectedTool": "ExtractStructuredDataViaOcr"
+    },
+    {
+      "query": "I need to ensure that our database queries are running efficiently. Can you help me optimize them?",
+      "expectedTool": "OptimizeSqlQueries"
+    },
+    {
+      "query": "I have a report in PDF format that needs to be converted into an editable DOCX file for my colleagues to make some changes. Can you help me with this?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to schedule a meeting with the team for next Tuesday at 2 PM, but I want to check if it might rain in Paris so we can decide whether to meet indoors or outdoors.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a large document with contact information, including email addresses. Can you help me extract all the email addresses for my outreach campaign?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a large dataset with sales figures, but I need to extract only the data for products that had sales over $1000 last month. Can you help me with this?",
+      "expectedTool": "ExtractDataPointsFromDatasets"
+    },
+    {
+      "query": "How can I ensure my laptop's CPU performance is optimized when running heavy applications?",
+      "expectedTool": "OptimizeCpuGovernorSettings"
+    },
+    {
+      "query": "I received a batch of emails from a new business partner. How can I extract all the contact information and add it to my professional address book?",
+      "expectedTool": "ExtractAndAddContacts"
+    },
+    {
+      "query": "We need a daily backup of our critical financial reports at 10 PM to prevent any data loss. Can you set that up for me?",
+      "expectedTool": "ScheduleDailyBackupAtTenPM"
+    },
+    {
+      "query": "I have a technical manual in English that I need translated into Japanese for our team. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I need to extract data from some scanned receipts for my expense report. Can you help me with that?",
+      "expectedTool": "ExtractStructuredDataViaOcr"
+    },
+    {
+      "query": "I have a large text file with potential clients' contact information. Can you help me extract all the email addresses so I can start reaching out to them?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to send a large presentation file as an email attachment, but it's too big. How can I compress it without losing quality?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I have a list of contacts from an email campaign, but I noticed there are some duplicate entries. Can you help me clean it up?",
+      "expectedTool": "CleanEmailContacts"
+    },
+    {
+      "query": "I need to validate a list of email addresses before sending out an important newsletter. Can you help with that?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "How can I configure my BIOS settings to improve power efficiency and enhance system security?",
+      "expectedTool": "OptimizeBiosSettings"
+    },
+    {
+      "query": "I need to send out an important email campaign, but I want to make sure all the email addresses in my list are valid. Can you help me verify them?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I need to find the greatest common divisor of 144 and 256 for a project. Can you help me calculate it?",
+      "expectedTool": "ComputeGreatestCommonDivisorEfficiently"
+    },
+    {
+      "query": "I have a folder full of high-resolution JPEG images that I want to convert to PNG format without losing quality. Can you help me with this?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I need a legal contract translated from English to Spanish. Can you ensure the translation is precise and uses the correct legal terminology?",
+      "expectedTool": "TranslateLegalSpanishPrecisely"
+    },
+    {
+      "query": "I need to convert some fractions in our financial report into decimals for better accuracy. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to convert some financial fractions into decimals for our annual report. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to send a large video file as an email attachment. How can I make sure the file size is reduced before sending?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I need to convert the measurements in our project documentation files from centimeters to inches. Can you help with that?",
+      "expectedTool": "ConvertMetricsToImperialUnits"
+    },
+    {
+      "query": "I have a folder with several JPEG images that need to be converted to PNG format for a presentation. Can you help convert them while preserving the quality?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I have a set of CSV files that I need to convert into JSON format for use in my web application. Can you help me with that?",
+      "expectedTool": "ConvertCsvToJsonForWebApps"
+    },
+    {
+      "query": "I need to prepare a report on the latest software updates for our Japanese clients. Could you translate this technical documentation from English to Japanese, ensuring that all specialized terms are accurately rendered?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I need to convert all the CSV files in my project directory to JSON format, ensuring that the data follows our predefined schema. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to organize my emails by sender to find important messages quickly. Can you help me set that up?",
+      "expectedTool": "SortEmailsBySender"
+    },
+    {
+      "query": "I have a budget spreadsheet with fractions in it that I need to convert to decimals for financial reporting. Can you help me with this?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a list of contacts from an old CRM system, and I need to extract all the valid email addresses to send out promotional emails. Can you help me with that?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a large number of JPEG images that I need to convert to PNG while keeping all the metadata intact. Can you help me with that?",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "I have a large JSON file that I need to validate against a specific schema before deploying it in our application. How can I do this?",
+      "expectedTool": "ValidateJsonAgainstSchema"
+    },
+    {
+      "query": "I need to know the probability of rain in Tokyo next week for planning an outdoor event.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert the fractions in our financial report to decimals for a more precise presentation. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to export the sales data from our SQL server into a CSV file for our quarterly report. Can you help with that?",
+      "expectedTool": "ExportTableDataToCsv"
+    },
+    {
+      "query": "I need to ensure that all email addresses in this list are valid before sending out a newsletter. Can you help me check them?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team every Monday at 10 AM starting next week. Can you help automate this?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need to send several large image files in an email, but they keep taking too long to load on the recipient's end. Can you help me compress these attachments?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I need to schedule a weekly meeting with the marketing team every Friday at 10 AM for the next six months. Can you help set this up?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I have a set of sales data in CSV format that needs to be converted to JSON for my web application. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonForWebApps"
+    },
+    {
+      "query": "I need a report on all instances of 'revenue growth' mentioned in our internal reports from the past year. Can you help me extract and compile this data?",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I need to schedule a weekly meeting with my team every Monday at 9 AM starting next week. Can you help set that up automatically?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need to convert a PDF document containing important meeting notes into an editable Word file for our team collaboration. Can you help with that?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to ensure that the JSON data my system generates adheres to a specific schema before processing it further. Can you help me validate this?",
+      "expectedTool": "ValidateJsonSchema"
+    },
+    {
+      "query": "I have a set of technical documents for our new product that need to be translated into Japanese. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I have some scanned receipts from my recent trip. How can I convert them into editable text files so I can claim my expenses through the company's accounting system?",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "I have a scanned copy of my research paper in image format, and I need to convert it into an editable text document. Can you help me with that?",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "I need to send a newsletter to all the contacts listed in this PDF document. Can you help me extract their email addresses?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a directory full of CSV files that I need to convert into JSON format for my web application, but I want to make sure the data matches our schema definitions. How can I do this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I keep getting a lot of spam emails in my inbox. How can I automatically filter them out?",
+      "expectedTool": "PurgeSpamEmailsAutomatically"
+    },
+    {
+      "query": "I have a meeting scheduled for 3 PM on Tuesday, but I'm also supposed to attend a webinar at the same time. Can you help me find out if there are any other overlapping events in my calendar?",
+      "expectedTool": "ResolveCalendarConflicts"
+    },
+    {
+      "query": "I need to convert the fractions used in our financial reports to decimals for better clarity. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a scanned copy of my technical manual in image format. How can I convert the text into an editable document?",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "I need to translate a legal agreement from English to Spanish with precise accuracy.",
+      "expectedTool": "TranslateLegalSpanishPrecisely"
+    },
+    {
+      "query": "I have a list of contacts in an email, and I need to extract all the email addresses to send out a promotional offer. Can you help me with that?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to translate a technical manual on electrical systems from English to Japanese for our international sales team. Can you help with that?",
+      "expectedTool": "TranslateTechnicalManualsToJapanese"
+    },
+    {
+      "query": "I need a report on the probability of rain in New York City for next week to plan an outdoor event.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to check if there's a high chance of rain in London next week for planning an outdoor event. Can you help with that?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to plan an outdoor event next weekend. Can you predict the probability of rain in my area so I can decide on a venue?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team every Thursday at 3 PM. Can you help set that up automatically?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need to send some large PDFs in an email but they're too big. Can you help me compress them before I send?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I need to find out the average monthly rainfall in Tokyo for the past 10 years. Can you help me extract this data from a meteorological dataset?",
+      "expectedTool": "FetchSpecificDataPoints"
+    },
+    {
+      "query": "My computer is running hot, can you help me optimize its CPU governor settings to improve performance?",
+      "expectedTool": "OptimizeCpuGovernorSettings"
+    },
+    {
+      "query": "I have a project report with some numbers written in French numerals. Can you convert them to Arabic numerals so we can use it consistently?",
+      "expectedTool": "TranslateNumbersAcrossLanguages"
+    },
+    {
+      "query": "I have a directory full of CSV files that I need to convert to JSON format, ensuring they match our existing schema definitions. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to extract all the email addresses from a long sales report document for our next outreach campaign. Can you help me do that?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a stack of technical manuals that need to be translated into Japanese for our manufacturing team. Can you help with this?",
+      "expectedTool": "TranslateTechnicalManualsToJapanese"
+    },
+    {
+      "query": "I need to plan an outdoor event this weekend. Can you tell me the probability of rain in Austin, Texas?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a list of email addresses in an Excel file that I need to validate before sending out marketing emails. Can you help me with this?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I have several CSV files in my project directory that I need to convert to JSON format. How can I ensure that this conversion is done correctly and that the data matches a specific schema definition?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to verify if the email addresses collected from our latest event registration are valid before sending out follow-up emails. Can you help with that?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I need to find all email addresses from our company's recruitment webpage for contacting potential candidates.",
+      "expectedTool": "ExtractEmailAddressesFromUrls"
+    },
+    {
+      "query": "I need to schedule weekly team meetings every Monday at 10 AM. Can you automate this for me?",
+      "expectedTool": "ScheduleMeetingsAutomatically"
+    },
+    {
+      "query": "I need to schedule bi-weekly check-ins with the marketing team starting next month. Can you set this up for me?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I have a CSV file with financial data that uses fractions. Can you help convert these fractions into decimals for better reporting?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to convert a set of financial reports that contain fractions into decimals for our annual report presentation. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to find out the probability of rain in New York City next week for planning a picnic. Can you help me with that?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert a PDF report I received into a Word document for easier editing. How can I do that?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I have a PDF report from a Japanese client that needs to be converted to a Word document. The document is encoded in Shift-JIS, so I need it to be in UTF-8 format as well. Can you help with this?",
+      "expectedTool": "ConvertShiftJisToUtf"
+    },
+    {
+      "query": "I need to record the temperature and humidity levels in my greenhouse every hour to monitor plant growth. Can you help me with that?",
+      "expectedTool": "MonitorTemperatureHumidityLevels"
+    },
+    {
+      "query": "I need to determine the solar radiation exposure for a building located at 37.7749, -122.4194 on May 15th, 2023. Can you help me with that?",
+      "expectedTool": "CalculateSolarExposure"
+    },
+    {
+      "query": "I have a folder full of JPEG images that I need to convert to PNG format while keeping them as small as possible. How can I do this?",
+      "expectedTool": "ConvertJpegToPngOptimizeStorage"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team every Monday at 9 AM. Can you help me set this up automatically?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I have a large dataset that's causing performance issues in my database queries. Can you help me optimize it?",
+      "expectedTool": "OptimizeQueryPerformance"
+    },
+    {
+      "query": "I have a set of CSV files containing weather data that I need to convert into JSON format. The JSON should match a predefined schema for consistency.",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I have a set of CSV files that need to be converted into JSON format, but I want to make sure the data integrity is maintained. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to convert all numeric data from Arabic numerals to Roman numerals in a project report that will be shared with Italian partners. Can you help with this?",
+      "expectedTool": "TranslateNumbersAcrossLanguages"
+    },
+    {
+      "query": "I have a dataset with user information in JSON format that I need to analyze. How can I extract all the email addresses of users over 30 years old?",
+      "expectedTool": "ExtractDataPointsFromDatasets"
+    },
+    {
+      "query": "I need to set up weekly meetings with my team every Tuesday at 10 AM. Can you help me schedule these automatically?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need to ensure that all the email addresses in my new marketing list are valid before I send out the campaign. Can you help me with this?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I need to find out the probability of rain for planning a picnic this weekend in Seattle. Can you help with that?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert a set of fractions into decimals for my financial report. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to prepare a report for next quarter using data from our sales database. Can you help me extract the total revenue and number of transactions per region?",
+      "expectedTool": "ExtractDataPointsFromDatasets"
+    },
+    {
+      "query": "I need a report on all instances of the keyword 'performance' within our sales database for this quarter.",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I need to translate a technical document from Japanese to English for my team's review. Can you help with that?",
+      "expectedTool": "TranslateJapaneseTechDocsToEnglish"
+    },
+    {
+      "query": "I need to find the greatest common divisor of 56 and 98 for a math project.",
+      "expectedTool": "ComputeGreatestCommonDivisorEfficiently"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team every Monday at 10 AM. Can you help automate this process?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I'm experiencing high temperatures in my office, how can I monitor the ambient temperature and humidity levels accurately?",
+      "expectedTool": "MonitorTemperatureHumidityLevels"
+    },
+    {
+      "query": "I need to convert the fraction 7/8 into its decimal equivalent for a financial report. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsAccurately"
+    },
+    {
+      "query": "I need a Japanese translation of our new product assembly manual to send to our distributors in Tokyo.",
+      "expectedTool": "TranslateTechnicalManualsToJapanese"
+    },
+    {
+      "query": "I have a directory full of JPEG images that I need to convert to PNG format to save storage space. Can you help with this?",
+      "expectedTool": "ConvertJpegToPngOptimizeStorage"
+    },
+    {
+      "query": "I need to convert some high-resolution JPEG images to PNG format while keeping all the metadata intact. How can I do that?",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "I have a dataset with sales figures from last year, but I need to extract specific data points related to Q4 performance. Can you help me with that?",
+      "expectedTool": "ExtractDataPointsFromDatasets"
+    },
+    {
+      "query": "I need to update my computer's BIOS settings to improve performance, especially the power management options. Can you help me with that?",
+      "expectedTool": "OptimizeBiosSettings"
+    },
+    {
+      "query": "I have a large dataset containing financial reports with fractions that need to be converted to decimals for our annual report. Can you help me convert these?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a large text file containing customer data in an unstructured format. How can I extract and organize this data into a database table for easier analysis?",
+      "expectedTool": "ExtractNormalizeData"
+    },
+    {
+      "query": "I have a technical manual for our new machine that needs to be shared with our Japanese colleagues. Can you convert it from English to Japanese while keeping the specialized terms correct?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I need to translate a technical document on quantum computing from English to Japanese for our project team. Can you help me with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I have a lot of scanned documents from an old report. How can I convert them into editable and searchable digital files?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology"
+    },
+    {
+      "query": "I need to plan a picnic in Central Park this weekend. Can you tell me if it's going to rain?",
+      "expectedTool": "PredictRainfallForecast"
+    },
+    {
+      "query": "I need to translate a legal agreement from English to Spanish for an upcoming business deal. Can you help with that?",
+      "expectedTool": "TranslateLegalSpanishPrecisely"
+    },
+    {
+      "query": "I need to schedule bi-weekly team meetings that recur every two weeks starting next Monday at 10 AM. Can you help with this?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I need to convert all the JPEG images in my project folder to PNG while keeping the quality intact. Can you help me with that?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I need to convert a detailed financial report from PDF to Word format while keeping all the layouts intact.",
+      "expectedTool": "ConvertPdfToWordExactLayout"
+    },
+    {
+      "query": "I have a large dataset with financial figures that include fractions, and I need to convert them all to decimals for an upcoming financial report. Can you help me with this?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "How can I set up daily backups of my important files at 10 PM?",
+      "expectedTool": "ScheduleDailyBackupAtTenPM"
+    },
+    {
+      "query": "I need to extract all customer email addresses from our sales reports for a mass mailing. Can you help me compile these into a contact list?",
+      "expectedTool": "ExtractAndCompileContacts"
+    },
+    {
+      "query": "I have a scanned copy of my financial report from last year, but I need it in digital format so I can easily search through it. Can you help with that?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology"
+    },
+    {
+      "query": "I have a JSON schema that needs to be validated against some data. Can you help me ensure the data conforms to the schema before I use it?",
+      "expectedTool": "ValidateJsonSchema"
+    },
+    {
+      "query": "I need to send a legal contract from English to Spanish, ensuring all the terminology is precise. Can you help with that?",
+      "expectedTool": "TranslateLegalSpanishPrecisely"
+    },
+    {
+      "query": "I need to convert a report from PDF format to DOCX so I can edit it in Word. Can you help with that?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "My computer has been running slowly lately. Can you help me check and fix any issues in the system registry?",
+      "expectedTool": "FixRegistryEntries"
+    },
+    {
+      "query": "I need to convert all our project data from CSV format to JSON for better integration with our new software system. Can you help with that?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need a list of all email addresses from our company's contact page so we can send out an important announcement.",
+      "expectedTool": "ExtractEmailAddressesFromUrls"
+    },
+    {
+      "query": "I need to know the probability of rain in Tokyo next Saturday to plan an outdoor event.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert some images from JPEG to PNG format while keeping all the metadata intact. Can you help me with that?",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team every Tuesday at 10 AM starting next week.",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "Our financial report contains a lot of fractions that need to be converted to decimals for consistency. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "What is the probability of rain in Madrid next week?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a dataset with weather readings including temperature and wind speed. How can I calculate the wind chill factor for each entry?",
+      "expectedTool": "ComputeWindChillFactor"
+    },
+    {
+      "query": "I need to send out a promotional email to everyone who attended our recent webinar. How can I extract all their email addresses from the registration form responses?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a list of email addresses that I need to validate before sending out an important announcement. Can you help me check their validity?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I have a list of contacts in an email newsletter and need to extract all the email addresses for a follow-up campaign.",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to reach out to all the project stakeholders mentioned in this proposal document. Can you extract their email addresses for me?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to extract all the email addresses from a large client list document I received. Can you help me with that?",
+      "expectedTool": "ExtractEmailAddresses"
+    },
+    {
+      "query": "I need to convert the fraction 7/16 into a decimal for our financial report.",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a large list of email contacts that I need to clean up before sending out a marketing campaign. How can I remove duplicates efficiently?",
+      "expectedTool": "CleanEmailContacts"
+    },
+    {
+      "query": "I have a large set of system logs in CSV format that I need to convert into JSON for easier analysis. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonLogs"
+    },
+    {
+      "query": "I need to convert a PDF report that contains formatted data into an editable Word document for our team to review. Can you help with that?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I have several CSV files that I need to convert into JSON format for my project, but I want to make sure the data integrity is maintained and it follows a specific schema. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to analyze the probability of rainfall in London next weekend to plan an outdoor event. Could you help with that?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to translate our new technical documentation from English to Japanese for an upcoming presentation. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I have a folder full of CSV files that need to be converted into JSON format. Each file has a specific schema I want to validate against during conversion. How can I do this efficiently?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "We need to migrate our SQL Server database to MySQL while ensuring that all table structures and relationships are preserved. Can you help us with this?",
+      "expectedTool": "MigrateSqlToMySqlTablesDataIntegrity"
+    },
+    {
+      "query": "I have a folder with financial reports that use fractions for amounts. Can you help convert these fractions to decimals to make them easier to work with?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a scanned report from last year that includes financial data in fraction form. Can you help convert the fractions to decimals for better readability in our current reporting system?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a bunch of old JPEG images that I want to convert to PNG format while keeping all the metadata intact. How can I do this efficiently?",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "I need to know the probability of rain in San Francisco next weekend for my outdoor event planning.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert some fractions in my financial report to decimals for better readability. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to ensure that my database maintains consistent data relationships, how can I do that?",
+      "expectedTool": "EnsureDataIntegrity"
+    },
+    {
+      "query": "I have a PDF report that I need to edit, but the format is crucial. How can I convert it into a Word document while preserving its original layout?",
+      "expectedTool": "ConvertPdfToWordExactLayout"
+    },
+    {
+      "query": "How can I convert all my vacation photos from JPEG to PNG while keeping their quality intact?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I have a bunch of scanned reports from last year's project that I need to analyze for this upcoming presentation. Can you help me convert them into editable digital files?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology"
+    },
+    {
+      "query": "What is the probability of rain in Tokyo for my upcoming business trip next week?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team starting next Monday at 10 AM. Can you set this up automatically?",
+      "expectedTool": "ScheduleMeetingsAutomatically"
+    },
+    {
+      "query": "I need to schedule weekly team meetings every Monday at 10 AM starting next week. Can you help automate this?",
+      "expectedTool": "ScheduleMeetingsAutomatically"
+    },
+    {
+      "query": "I need to plan an outdoor event in Los Angeles next month. Can you tell me the probability of rain during that time?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team starting next Monday at 10 AM, but I want to make sure they all have the same availability. Can you help me set this up?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I need to sync all my event reminders from Google Calendar to my smartwatch. How can I do that?",
+      "expectedTool": "SyncEventRemindersToDevice"
+    },
+    {
+      "query": "I need to find all mentions of 'data breach' in our company's security reports from the last year. Can you help with that?",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I have a large set of customer feedback forms in PDF format that need to be analyzed. Can you help me extract the relevant data and organize it into a database?",
+      "expectedTool": "ExtractNormalizeData"
+    },
+    {
+      "query": "I need to organize my incoming emails by sender. Can you help me set that up?",
+      "expectedTool": "SortEmailsBySender"
+    },
+    {
+      "query": "I need to send a large report via email, but it's taking too long to attach. Can you help me compress the file for faster sending?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I have a scanned invoice that needs to be converted into structured data. Can you help me extract the necessary information?",
+      "expectedTool": "ExtractStructuredDataViaOcr"
+    },
+    {
+      "query": "I'm planning a picnic in the park this weekend, but I'm worried about rain. Can you tell me the probability of rain on Saturday afternoon?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert some financial reports that use fractions into decimals for a presentation. Can you help with this?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to convert some financial fractions into decimals for our quarterly report. Could you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a set of JPEG images that need to be converted into high-resolution TIFF format for printing. Can you help me with this conversion?",
+      "expectedTool": "ConvertJpegToTiffHighRes"
+    },
+    {
+      "query": "I have a directory full of CSV files that need to be converted to JSON format. Can you help me with this conversion while ensuring data integrity and adhering to a specific schema?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "What is the probability of rain in Tokyo tomorrow?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a financial report with fractions and need them converted to decimals for better readability. Can you help me with this?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to send out emails to all the contacts listed in this text file. Can you extract their email addresses for me?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a financial report with fractions that need to be converted to decimals for precision in our year-end review. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a scanned copy of an old financial report that contains some numbers in fraction form. Can you help me convert it into editable digital text and also change all the fractions to decimals for better analysis?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology, ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a bunch of high-resolution JPEG images from my vacation that I want to convert to PNG format without losing quality. How can I do this?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I have a financial report with fractions that need to be converted to decimals for better readability in my presentation. Can you help convert them?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need a list of email addresses from our recent conference brochure to send out follow-up invitations.",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I have a report in a text file that contains sales data with some values in fraction form. Can you convert these fractions to decimals so I can use the data for my financial analysis?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to ensure that my new API endpoints meet the latest security standards before deploying them. Can you help me validate these configurations?",
+      "expectedTool": "ValidateApiSecurityStandards"
+    },
+    {
+      "query": "I need to convert all my vacation photos from JPEG format to PNG while keeping the same quality. Can you help me with that?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I need to schedule weekly check-ins with my team every Monday at 10 AM. Can you help set that up automatically?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I'm experiencing performance issues on my laptop. How can I optimize the CPU governor settings for better performance?",
+      "expectedTool": "OptimizeCpuGovernorSettings"
+    },
+    {
+      "query": "I want to ensure that my computer's BIOS settings are configured for both maximum performance and enhanced security. Can you help me with that?",
+      "expectedTool": "OptimizeBiosSettings"
+    },
+    {
+      "query": "I need to convert all the CSV files in my project directory to JSON format, making sure that they adhere to a specific schema I have defined. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I have several large files I need to send in an email, and I want to make sure they are compressed to speed up delivery. Can you help me with that?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I want to ensure all devices on my network have the correct time. Can you help me set up automatic time synchronization?",
+      "expectedTool": "SetSystemTimeSync"
+    },
+    {
+      "query": "I have a document with technical specifications that I need translated into Japanese for our Japanese team. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I have some temperature readings in Celsius from my weather sensor, can you convert them to Fahrenheit for me?",
+      "expectedTool": "ConvertTemperatureToFahrenheit"
+    },
+    {
+      "query": "I need to plan a picnic this weekend in New York. Can you help me find out the probability of rain?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a folder of scanned invoices that I need to search through for specific details. How can I convert these into searchable digital text?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology"
+    },
+    {
+      "query": "My team's project meeting times are overlapping with other commitments. Can you help me adjust the schedule to minimize conflicts?",
+      "expectedTool": "ResolveCalendarConflicts"
+    },
+    {
+      "query": "Our company's database is having issues with data consistency; can you help ensure all tables are normalized and have proper referential integrity?",
+      "expectedTool": "EnsureDataIntegrity"
+    },
+    {
+      "query": "I need to schedule outdoor activities in the park next weekend, but I'm concerned about rain. Can you predict the probability of rainfall in my area?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to organize my emails so that all messages from my boss are in one folder. Can you help me set this up?",
+      "expectedTool": "SortEmailsBySender"
+    },
+    {
+      "query": "I have a PDF report that needs to be edited. Can you convert it into a DOCX file?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to know the probability of rain in Tokyo for next week's outdoor event planning.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a technical document that needs to be translated into Japanese for our upcoming project. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "We need to send out a promotional email to our recent webinar attendees. Can you extract all their email addresses from the registration form data?",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to extract specific sales data from our quarterly report dataset for the last three years, focusing on revenue and expenses by product category.",
+      "expectedTool": "ExtractDataPointsFromDatasets"
+    },
+    {
+      "query": "I have a batch of legal documents in English that need to be translated into Spanish for a court hearing. Can you help me with an accurate translation?",
+      "expectedTool": "TranslateLegalSpanishPrecisely"
+    },
+    {
+      "query": "I need to convert some fractions in my financial report into decimals for consistency. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to schedule weekly team meetings every Tuesday at 2 PM, but I want it to automatically adjust if someone is unavailable. How can I do that?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I need to convert some fractions in our financial report to decimals for better accuracy before submitting it. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to convert a fraction like 3/8 into a decimal for my financial report. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to ensure that all CSV files in my project directory are converted to JSON format and validated against a specific schema. Can you help with this?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to ensure that our application's user authentication data is correctly synchronized with our new identity provider. Can you help me set this up?",
+      "expectedTool": "SynchronizeUserAuthData"
+    },
+    {
+      "query": "How can I automate the scheduling of my weekly team meetings starting next Monday at 9 AM?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need to send a large set of images as attachments in an email, but I'm worried about the file size. Can you help me compress them without losing quality?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "I need to convert a technical PDF document into an editable DOCX format while maintaining the original formatting, as I will be making some revisions to it.",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to schedule a weekly team meeting at 3 PM every Wednesday starting next week. Can you help set this up?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I need to plan an outdoor event in the park next Saturday. Can you tell me the probability of rain there that day?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to convert some financial ratios from fractions to decimals for our quarterly report. Can you help with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to ensure that the JSON data I have collected is compliant with our schema before importing it into the database. Can you help me validate it?",
+      "expectedTool": "ValidateJsonSchema"
+    },
+    {
+      "query": "I need to schedule a weekly team meeting that automatically reschedules if someone is unavailable. Can you help set that up?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I have a PDF report that I need to edit in Microsoft Word. Can you help me convert it to DOCX format with accurate formatting?",
+      "expectedTool": "ConvertPdfToDocxPrecisely"
+    },
+    {
+      "query": "I need to schedule weekly meetings for our development team every Friday at 10 AM. Can you help set this up?",
+      "expectedTool": "ScheduleAndNotifyMeetings"
+    },
+    {
+      "query": "I have a large document with unstructured data that I need to organize into a relational database for better querying. Can you help me extract and normalize this data?",
+      "expectedTool": "ExtractNormalizeData"
+    },
+    {
+      "query": "I need to make sure that all the email addresses in our new client list are valid before we send out marketing emails. Can you help me check them?",
+      "expectedTool": "ValidateEmailAddressesNow"
+    },
+    {
+      "query": "I have a large dataset containing sales records from multiple years. How can I extract all entries where the total sale amount exceeds $10,000?",
+      "expectedTool": "FetchSpecificDataPoints"
+    },
+    {
+      "query": "I need to plan a picnic this weekend in London. Can you tell me the probability of rain there?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I have a JSON configuration file for my web application, and I want to ensure it adheres to a specific schema before deploying. Can you help me validate this?",
+      "expectedTool": "ValidateJsonSchema"
+    },
+    {
+      "query": "I need to convert all fractions in our financial report to decimals for consistency. Can you help me with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to translate the technical specifications of our new product from English to Japanese for our marketing team. Can you help with that?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I have a report with several fractions that need to be converted to decimals before I can finalize the financial analysis. Can you help me convert these?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to analyze all mentions of 'sustainability' in our company's annual reports from the past five years. Can you help me extract that data?",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I have a folder full of JPEG images that I need to convert to PNG format without losing any quality. How can I do this?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I need to schedule a weekly team meeting every Monday at 10 AM. Can you help automate this process?",
+      "expectedTool": "ScheduleMeetingsAutomatically"
+    },
+    {
+      "query": "I need to schedule a meeting with my team members next week, but everyone has different availability. Can you help find a time that works for everyone?",
+      "expectedTool": "FindScheduleOverlap"
+    },
+    {
+      "query": "I have a financial report with fractions that need to be converted to decimals for easier analysis. Can you help me convert them?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to schedule a weekly team meeting every Monday at 10 AM starting next week. Can you set this up for me?",
+      "expectedTool": "ScheduleAndNotifyMeetings"
+    },
+    {
+      "query": "I have a bunch of technical manuals written in English, and I need them translated into Japanese for our international team. Can you help with that?",
+      "expectedTool": "TranslateTechnicalManualsToJapanese"
+    },
+    {
+      "query": "I need to schedule a weekly team meeting every Monday at 10 AM, but I want the tool to automatically find a time that works for everyone in my team without me having to manually reschedule.",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I need to ensure that my critical data files are backed up automatically every day before I go to sleep. How can I set this up?",
+      "expectedTool": "ScheduleDailyBackupAtTenPM"
+    },
+    {
+      "query": "I have a bunch of financial reports with fractions that need to be converted to decimals for our annual report. Can you help me convert them accurately?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a large PDF report that I need to edit in Word. Can you help convert it while keeping the original formatting intact?",
+      "expectedTool": "ConvertPdfToWordExactLayout"
+    },
+    {
+      "query": "What is the current forecasted probability of rain in Seattle next Saturday?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to know the probability of rain in Tokyo for my outdoor event next weekend. Could you provide that information?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to analyze the probability of rain in Tokyo over the next month for my outdoor event planning. Can you help me with that?",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to prepare a presentation using images I have in JPEG format. Can you help me convert them to PNG and reduce their file size?",
+      "expectedTool": "ConvertJpegToPngOptimizeStorage"
+    },
+    {
+      "query": "I need to convert a set of customer data from PDF format into an Excel spreadsheet that I can use in my reports. Can you help me with that?",
+      "expectedTool": "ExtractNormalizeData"
+    },
+    {
+      "query": "I have a large dataset from various sources that needs to be cleaned up and normalized for analysis. Can you help me automate this process?",
+      "expectedTool": "ExtractNormalizeData"
+    },
+    {
+      "query": "I need to optimize the resource configurations on my server to improve its performance. Can you help me with that?",
+      "expectedTool": "OptimizeResourceConfigurations"
+    },
+    {
+      "query": "I need to find all mentions of 'climate change' in our environmental reports from the past year. Can you help me with that?",
+      "expectedTool": "FetchSpecificKeywordsData"
+    },
+    {
+      "query": "I need to translate our latest technical manual from English to Japanese for an upcoming product launch. Could you help with that?",
+      "expectedTool": "TranslateTechnicalManualsToJapanese"
+    },
+    {
+      "query": "Can you schedule weekly team meetings every Monday at 10 AM starting next week?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "What will the wind chill be in Chicago if it's -5 degrees Fahrenheit and there are 20 mph winds?",
+      "expectedTool": "ComputeWindChillFactor"
+    },
+    {
+      "query": "I need to find out the greatest common divisor of 84 and 132 for a math project.",
+      "expectedTool": "FindGreatestCommonDivisor"
+    },
+    {
+      "query": "I have a large PDF manual that's currently an image file. I need the text extracted so I can edit it for a new version of our product.",
+      "expectedTool": "ConvertImagesToText"
+    },
+    {
+      "query": "I have a large number of CSV files that need to be converted into JSON format. Can you help me with this conversion while making sure they follow our schema definitions?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I have a collection of old family photos saved as JPEGs. How can I convert them to PNG format while keeping all the metadata?",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "How can I automatically schedule weekly team meetings every Monday at 9 AM?",
+      "expectedTool": "ScheduleAppointmentsAutomatically"
+    },
+    {
+      "query": "I have a folder of JPEG images that I need to convert to PNG format without losing quality. Can you help with that?",
+      "expectedTool": "ConvertJpegToPngPreserveQuality"
+    },
+    {
+      "query": "I need to translate a technical manual from English to Japanese while ensuring that all specialized terms are accurately rendered and the document structure is maintained.",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I'm trying to ensure that my server configuration JSON file adheres to the correct schema before deploying it. How can I validate this?",
+      "expectedTool": "ValidateJsonSchema"
+    },
+    {
+      "query": "I need a list of all email addresses from the company newsletter subscribers for an upcoming promotional campaign.",
+      "expectedTool": "ExtractEmailAddressesForOutreach"
+    },
+    {
+      "query": "I need to send a detailed technical report to our Japanese partners. Could you help translate it while maintaining the technical accuracy?",
+      "expectedTool": "TranslateTechDocsToJapanese"
+    },
+    {
+      "query": "I need to send some large PDF attachments in an email and want to make sure they are compressed for faster delivery. Can you help me compress these files?",
+      "expectedTool": "CompressAttachmentsForSpeedAndStorage"
+    },
+    {
+      "query": "What is the greatest common divisor of 240 and 360?",
+      "expectedTool": "ComputeGreatestCommonDivisorEfficiently"
+    },
+    {
+      "query": "I have a report from Japan that's encoded in Shift-JIS. How can I convert it to UTF-8 so it opens correctly on my computer?",
+      "expectedTool": "ConvertShiftJisToUtf"
+    },
+    {
+      "query": "I need to schedule a weekly team meeting every Monday at 10 AM. Can you help automate this process?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I have a report with financial data that uses fractions for some numbers. Can you convert these fractions into decimals for more precise financial reporting?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have a large dataset that's slowing down my SQL queries. Can you help me optimize them for better performance?",
+      "expectedTool": "OptimizeSqlQueries"
+    },
+    {
+      "query": "I need to schedule weekly team meetings that recur every Monday at 10 AM. Can you help me set this up automatically?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I need to convert a scanned copy of my old contract into an editable format so I can review it on my computer. Can you help with that?",
+      "expectedTool": "ConvertScannedTextToEditableSearchableDigitalTextUsingOcrTechnology"
+    },
+    {
+      "query": "I need to convert a set of financial reports from fractions to decimals for my annual report. Can you help me with that?",
+      "expectedTool": "ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I have several CSV files with financial data that need to be converted into JSON format. Can you help me ensure the data integrity and correct field mapping?",
+      "expectedTool": "ConvertCsvToJsonWithSchemaValidation"
+    },
+    {
+      "query": "I need to simplify the fraction 18/24 for my math homework, can you help?",
+      "expectedTool": "SimplifyFractionsNow"
+    },
+    {
+      "query": "I need to find a time that works for everyone on my team for our weekly sync-up. How can I do this?",
+      "expectedTool": "FindScheduleOverlap"
+    },
+    {
+      "query": "I have a PDF report with financial data in fractional form that needs to be converted to decimals before I can process it. Can you help me extract the data and convert the fractions?",
+      "expectedTool": "ExtractStructuredDataViaOcr, ConvertFractionsToDecimalsForFinancials"
+    },
+    {
+      "query": "I need to schedule a daily backup of our critical financial reports at 10 PM. How can I set this up?",
+      "expectedTool": "ScheduleDailyBackupAtTenPM"
+    },
+    {
+      "query": "I have a set of photos in JPEG format that I want to convert to PNG while keeping all the metadata intact. Can you help me with that?",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "I need to know the probability of rain in New York City for my outdoor wedding planning next month.",
+      "expectedTool": "ForecastRainProbability"
+    },
+    {
+      "query": "I need to ensure my new API endpoint is secure before deploying it. Can you help me validate its configurations?",
+      "expectedTool": "ValidateApiSecurityStandards"
+    },
+    {
+      "query": "I have a JSON file containing user data from our API, but I only need certain fields like names and email addresses for my analysis. Can you help me extract these?",
+      "expectedTool": "ParseJsonExtractFields"
+    },
+    {
+      "query": "I need to schedule weekly team syncs every Monday at 9 AM with Alice, Bob, and Charlie. Can you handle that for me?",
+      "expectedTool": "AutoScheduleMeetings"
+    },
+    {
+      "query": "I have a bunch of JPEG images that I need to convert to PNG format for web use, but I want to make sure all the metadata stays intact. Can you help with that?",
+      "expectedTool": "ConvertJpegToPngPreserveMetadata"
+    },
+    {
+      "query": "I need to schedule weekly meetings with our development team every Tuesday at 10 AM. Can you set this up for me?",
+      "expectedTool": "ScheduleAndNotifyMeetings"
+    },
+    {
+      "query": "I need to schedule weekly meetings with my team, but everyone's availability is inconsistent. Can you help set this up automatically?",
+      "expectedTool": "AutoScheduleMeetings"
+    }
+  ]
+}
