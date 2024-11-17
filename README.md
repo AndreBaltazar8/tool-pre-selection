@@ -2,6 +2,10 @@
 
 This project tests tool pre-selection using vector embeddings and HyDE.
 
+# Paper
+
+The paper can be found in the `paper` folder, at [tool-pre-selection-using-embeddings.pdf](paper/tool-pre-selection-using-embeddings.pdf).
+
 ## Installation
 
 To install dependencies:
