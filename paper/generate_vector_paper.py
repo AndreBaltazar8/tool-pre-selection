@@ -157,7 +157,7 @@ def main():
             ),
             "steps_list": [
                 "Tool Embedding: All tools were embedded into vector space using the Nomic Embed Text model.",
-                "Query Processing: Each query was passed through an HyDE pass to generate a generate an hypotetical description "
+                "Query Processing: Each query was passed through an HyDE pass to generate an hypothetical description "
                 "of the tool that would be used to answer the query.",
                 "Vector-Based Matching: The cosine similarity between the HyDE-enhanced query embedding and each tool embedding was computed "
                 "and the top 5 tools were selected based on cosine similarity.",
